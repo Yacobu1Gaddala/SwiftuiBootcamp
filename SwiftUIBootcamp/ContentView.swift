@@ -12,6 +12,15 @@ struct ContentView: View {
         ZStack {
             Color.blue.opacity(0.5)
                 .ignoresSafeArea()
+            
+            VStack {
+                
+            }
+            .frame(width: 400,height: 300)
+            .background(Color.accentColor)
+            .padding()
+            .offset(x: 200,y: -100)
+            .padding(.trailing,32)
         }
     }
 }
