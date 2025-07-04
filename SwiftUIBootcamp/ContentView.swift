@@ -21,9 +21,24 @@ struct ContentView: View {
                         .fontWeight(.light)
                     Spacer()
                     TextField("Enter Username", text: $userName)
+                    
                         
                 }
+                
                 .padding()
+                
+                HStack {
+                    Text("******")
+                        .font(.title)
+                        .fontWeight(.light)
+                    Spacer()
+                    TextField("Enter the password", text: $userName)
+                    
+                        
+                }
+                
+                .padding()
+                
                 
             }
             .frame(width: 500,height: 450)
